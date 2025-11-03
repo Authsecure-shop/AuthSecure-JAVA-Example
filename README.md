@@ -151,7 +151,8 @@ Device Verified ✓
 ---
 ### Perform Register
 
-```java    private void registerNow() {
+```java
+private void registerNow() {
         final String user = usernameField.getText().toString().trim();
         final String pass = passwordField.getText().toString().trim();
         final String license = licenseField.getText().toString().trim();
@@ -183,7 +184,8 @@ Device Verified ✓
 
 ### Perform license Login
 
-```java    private void licenseLoginNow() {
+```java
+private void licenseLoginNow() {
         final String license = licenseField.getText().toString().trim();
         if (license.isEmpty()) {
             toast("Enter License Key");
